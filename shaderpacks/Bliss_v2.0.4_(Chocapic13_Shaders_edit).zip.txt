@@ -1,0 +1,15 @@
+#Wed Jun 12 18:44:21 QYZT 2024
+DOF_QUALITY=4
+FAR_BLUR_ONLY=true
+OLD_LIGHTLEAK_FIX=true
+POM=true
+POM_DEPTH=0.50
+Rough_reflections=true
+Roughness_Threshold=1.0
+SHADOW_FILTER_SAMPLE_COUNT=20
+Screen_Space_Reflections=true
+Sky_reflection=true
+Specular_Reflections=true
+reflection_quality=10.0
+shadowDistance=80.0
+shadowMapResolution=512

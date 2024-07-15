@@ -1,0 +1,2 @@
+#Thu Feb 22 22:38:37 ALMT 2024
+SVGF_RAD=2
