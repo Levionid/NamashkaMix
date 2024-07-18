@@ -5,6 +5,7 @@
 		"shadow_text": true,
 		"auto_start": false,
 		"animationSpeed": 1.0,
+		"always_show_ping": false,
 		"hide_debug_crosshair": false,
 		"background_color": 1867534416,
 		"space_modules": false,
@@ -33,8 +34,6 @@
 			"enabled": true
 		}, 
 		{
-			"memory_color_toggle": true,
-			"time_format": "HH:mm:ss",
 			"name": "system",
 			"name_color": 16755200,
 			"value_color": 5636095,
@@ -107,7 +106,8 @@
 			"lines": {
 				"server_tick": true,
 				"packets_sent": false,
-				"packets_received": false
+				"packets_received": false,
+				"tick_manager_status": true
 			},
 			"enabled": true
 		}, 
@@ -129,7 +129,9 @@
 				"chunk_coords": true,
 				"player_coords": true,
 				"block_coords": true,
-				"chunk_relative_coords": true
+				"velocity": true,
+				"chunk_relative_coords": true,
+				"abs_velocity": true
 			},
 			"enabled": true
 		}, 
@@ -147,7 +149,7 @@
 			"value_color": 5636095,
 			"lines": {
 				"light": false,
-				"biome": false,
+				"biome": true,
 				"rotation": true,
 				"facing": true,
 				"slime_chunk": false,
